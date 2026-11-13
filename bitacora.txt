@@ -1,4 +1,4 @@
-[2026-11-13 11:39:10] Sistema iniciado correctamente
-[2026-11-13 11:39:10] ERROR: no se pudo conectar con la base de datos
-[2026-11-13 11:39:10] Usuario admin inició sesión
-[2026-11-13 11:39:10] Error: archivo de configuración corrupto
+[2026-11-13 11:57:56] Sistema iniciado correctamente
+[2026-11-13 11:57:56] ERROR: no se pudo conectar con la base de datos
+[2026-11-13 11:57:56] Usuario admin inició sesión
+[2026-11-13 11:57:56] Error: archivo de configuración corrupto

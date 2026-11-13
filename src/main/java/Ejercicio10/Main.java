@@ -16,6 +16,8 @@ public class Main {
 
     public static void main(String[] args) {
 
+        new File("bitacora.txt").delete();
+
         try {
             Bitacora bitacora = new Bitacora("bitacora.txt");
             bitacora.registrar("Sistema iniciado correctamente");
