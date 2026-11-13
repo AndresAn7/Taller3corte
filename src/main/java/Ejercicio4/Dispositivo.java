@@ -1,0 +1,43 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package Ejercicio4;
+
+import java.util.Locale;
+
+/**
+ *
+ * @author Grogu
+ */
+public abstract class Dispositivo {
+
+    protected String marca;
+    protected String modelo;
+    protected double precio;
+
+    public Dispositivo(String marca, String modelo, double precio) {
+        this.marca = marca;
+        this.modelo = modelo;
+        this.precio = precio;
+    }
+
+    public String getMarca() {
+        return marca;
+    }
+
+    public String getModelo() {
+        return modelo;
+    }
+
+    public double getPrecio() {
+        return precio;
+    }
+
+    protected String precioFormateado() {
+        return "$" + String.format(Locale.US, "%,.0f", precio).replace(',', '.');
+    }
+
+    public abstract String describir();
+}
+    
