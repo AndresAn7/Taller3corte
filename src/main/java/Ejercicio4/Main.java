@@ -30,7 +30,7 @@ public class Main {
             }
             if (d instanceof Llamable) {
                 Llamable l = (Llamable) d;
-                l.llamar("3001234569");
+                l.llamar("3001234567");
                 l.colgar();
             }
             System.out.println();
